@@ -17,7 +17,7 @@ Anvyon Agentic is a Python library for building multi-agent systems that decompo
 - **Built-in tools** — calculate, datetime, text_transform, json_parse, web_search
 - **Pluggable LLM providers** — bring your own LLM or use the built-in Anthropic provider
 
-> **Looking for advanced features?** PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop are available in the **[anvyonenterprise](https://github.com/anvyon/anvyonenterprise)** package.
+> **Looking for advanced features?**  orchestrate AI agetns using management pricniples like Organisational Behaviour and Operations principles to get overall reduced pricing improved execution and increased efficiency . these advanced features like PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, MCP creator and MCP tool caller  and human-in-the-loop are available in the anvyon enterprise contact anvyon1@gmail.com and visit www.anvyon.com for more details
 
 ## Installation
 
