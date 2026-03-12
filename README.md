@@ -120,9 +120,7 @@ result = tools.execute("text_transform", {"text": "hello", "operation": "upper"}
 
 For advanced capabilities including PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop approval, see the **[anvyonenterprise](https://github.com/anvyon/anvyonenterprise)** package.
 
-```bash
-pip install anvyonenterprise
-```
+
 
 ## Contributing
 
