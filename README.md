@@ -118,11 +118,8 @@ result = tools.execute("text_transform", {"text": "hello", "operation": "upper"}
 
 ## Enterprise Features
 
-For advanced capabilities including PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop approval, see the **[anvyonenterprise](https://github.com/anvyon/anvyonenterprise)** package.
+For advanced capabilities we used agentic ops a concept unique to Anvyon where you can allocate the tasks to the sub agents in an optimised manner using management operations principles like  PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop approval and automatic MCP caller and MCP integration, please contact anvyon1@gmail.com and visit the website www.anvyon.com for more details
 
-```bash
-pip install anvyonenterprise
-```
 
 ## Contributing
 
