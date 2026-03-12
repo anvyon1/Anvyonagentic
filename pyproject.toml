@@ -1,0 +1,83 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anvyonagentic"
+version = "3.0.0"
+description = "Open-source multi-agent framework for task decomposition, delegation, and execution"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+authors = [
+    {name = "Anvyon"}
+]
+keywords = [
+    "ai",
+    "agentic",
+    "task-optimization",
+    "delegation",
+    "multi-agent",
+    "llm"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+anthropic = [
+    "anthropic>=0.20.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.1.0",
+]
+all = [
+    "anthropic>=0.20.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/anvyon/anvyonagentic"
+Documentation = "https://github.com/anvyon/anvyonagentic#readme"
+Repository = "https://github.com/anvyon/anvyonagentic"
+Issues = "https://github.com/anvyon/anvyonagentic/issues"
+Changelog = "https://github.com/anvyon/anvyonagentic/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["anvyonagentic*"]
+
+[tool.setuptools.package-data]
+anvyonagentic = ["py.typed", "LICENSE", "README.md", "CHANGELOG.md"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.coverage.run]
+source = ["anvyonagentic"]
+
+[tool.coverage.report]
+show_missing = true
+skip_empty = true
