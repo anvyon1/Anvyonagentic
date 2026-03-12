@@ -118,7 +118,7 @@ result = tools.execute("text_transform", {"text": "hello", "operation": "upper"}
 
 ## Enterprise Features
 
-For advanced capabilities including PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop approval, see the **[anvyonenterprise](https://github.com/anvyon/anvyonenterprise)** package.
+ For advanced capabilities that enable creating more efficient , less cost workflows we have embedded  operations and ob principles into this and these additional features like   PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop approval, see the Anvyon enterprise  package contact anvyon1@gmail.com and visit www.anvyon.com for more details.
 
 
 
