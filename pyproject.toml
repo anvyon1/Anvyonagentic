@@ -7,7 +7,7 @@ name = "anvyonagentic"
 version = "3.0.0"
 description = "Open-source multi-agent framework for task decomposition, delegation, and execution"
 readme = "README.md"
-license = "Apache-2.0"
+license = "AGPL-3.0-or-later"
 requires-python = ">=3.9"
 authors = [
     {name = "Anvyon"}

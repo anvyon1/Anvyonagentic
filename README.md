@@ -4,7 +4,7 @@
 
 Anvyon Agentic is a Python library for building multi-agent systems that decompose, delegate, and execute complex tasks. It provides a simple yet powerful foundation for agentic workflows with pluggable LLM providers.
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
 ## Features
@@ -118,8 +118,11 @@ result = tools.execute("text_transform", {"text": "hello", "operation": "upper"}
 
 ## Enterprise Features
 
-For advanced capabilities we used agentic ops a concept unique to Anvyon where you can allocate the tasks to the sub agents in an optimised manner using management operations principles like  PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop approval and automatic MCP caller and MCP integration, please contact anvyon1@gmail.com and visit the website www.anvyon.com for more details
+For advanced capabilities including PERT analysis, Monte Carlo simulation, RL optimization, trust calibration, oversight/governance, delegation memory, and human-in-the-loop approval, see the **[anvyonenterprise](https://github.com/anvyon/anvyonenterprise)** package.
 
+```bash
+pip install anvyonenterprise
+```
 
 ## Contributing
 
@@ -134,4 +137,4 @@ pytest
 
 ## License
 
-This project is licensed under the **Apache License 2.0** — you are free to use, modify, and distribute it in both open-source and proprietary applications. See [LICENSE](LICENSE) for the full text.
+This project is licensed under the **GNU Affero General Public License v3.0** (AGPL-3.0). See [LICENSE](LICENSE) for the full text.
